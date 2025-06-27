@@ -1,16 +1,34 @@
-
 #workskin {
-font-size: 2vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2vh;
+}
+
+#workskin p {
+  font-size: 2vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 0px 5vw;
 }
 
 #workskin h2 {
   font-size: 4vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 0px 5vw;
 }
 
 #workskin h3 {
   font-size: 3vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 0px 5vw;
 }
 
 #workskin h4 {
   font-size: 3vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 0px 5vw;
+}
+
+#workskin blockquote {
+  font-size: 2vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 0px 10vw;
 }

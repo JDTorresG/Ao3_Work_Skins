@@ -1,0 +1,108 @@
+/* ===== CONTENEDOR PRINCIPAL DE LA HISTORIA ===== */
+#workskin {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px 10px 20px 10px;
+  background: url(https://i.imgur.com/EUmTgUE.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid rgba(128, 128, 128, 0.3);
+  border-radius: 15px;
+  box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.16), 0 1px 4px -1px rgba(0, 0, 0, 0.04);
+  color: black;
+}
+
+/* ===== CONTENEDOR DE NOTAS ===== */
+#workskin .preface {
+  font-size: 2vh;
+  text-align: justify;
+  padding: 5px 5px;
+  border: 2px solid rgba(128, 128, 128, 0.3);
+  box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.16), 0 1px 4px -1px rgba(0, 0, 0, 0.04);
+}
+
+/* === Estilos de los títulos de la historia === */
+#workskin h2 {
+  font-size: 4vh;
+  margin-bottom: 25px;
+  font-style: normal;
+  text-align: center;
+}
+
+#workskin h3 {
+  display: none;
+}
+
+#workskin h4 {
+  font-size: 3vh;
+  font-style: normal;
+  text-align: left;
+  margin: 15px 0px;
+}
+
+/* Número de capítulo */
+#workskin .chap-num {
+  text-align: center;
+  font-size: 3vh;
+  font-family: 'Times New Roman', Times, serif;
+  font-variant: small-caps;
+}
+
+/* Nombre del capítulo */
+#workskin .chap-name {
+  text-align: center;
+  font-size: 3vh;
+  font-variant: small-caps;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* === CUERPO DE LA HISTORIA === */
+
+/* Párrafos */
+#workskin .corp {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  text-indent: 20px;
+  text-align: justify;
+  font-size: 2vh;
+}
+
+/* Primer párrafo del texto */
+#workskin .initp {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  font-size: 2vh;
+  text-align: justify;
+}
+
+/* Letra capítal */
+#workskin .initp:first-letter {
+  float: left;
+  color: black;
+  border-style: hidden;
+  font-size: 6vh;
+  line-height: 5vh;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-right: 2px;
+}
+
+/* Primer párrafo sin letra capítal */
+#workskin .firstp {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  font-size: 2vh;
+  text-align: justify;
+}
+
+/* Renglones en blanco para separar texto */
+#workskin .div {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  font-size: 2vh;
+  text-align: center;
+}
